@@ -13,7 +13,7 @@ pip install -r requirements.txt
 To train the model(s) in the paper, run this command:
 
 ```train
-python main.py --data Cifar10 --acqMode Max_Diversity --optimizer_name Adam
+python3 main.py --data Cifar10 --acqMode Max_Diversity --optimizer_name Adam
 ```
 
 ## Evaluation
